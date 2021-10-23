@@ -5,7 +5,7 @@ require 'cgi'
 require 'openssl'
 
 #How use it
-# ruby detect_xss.rb [target_url] [target_parameter]
+# ruby detect_possible_XSS.rb [target_url] [target_parameter]
 
 #Target constant contains the URL of the target resource, including the query string
 Target = URI(ARGV[0])
